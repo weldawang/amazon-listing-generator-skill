@@ -58,15 +58,15 @@ def data_cell(ws, row, col, val, bg="FFFFFFFF", fg="222222", bold=False, sz=9, h
 
 # ════════════════════════════════════════════════════════════════════════════
 IMAGE_SLOTS = [
-    ("AM-01","主图 Main Image",      "3000x3000px","Real photo required"),
-    ("AS-02","核心卖点图",            "2000x2000px","AI allowed"),
-    ("AS-03","功能拆解图",            "2000x2000px","AI allowed"),
-    ("AS-04","尺寸参数图",            "2000x2000px","AI allowed"),
-    ("AS-05","场景使用图",            "2000x2000px","AI allowed"),
-    ("AS-06","细节特写图 (2x2)",      "2000x2000px","AI allowed"),
-    ("AS-07","竞品对比图",            "2000x2000px","AI allowed"),
-    ("AS-08","安装/使用步骤图",       "2000x2000px","AI allowed"),
-    ("AS-09","包装全家福",            "2000x2000px","AI allowed"),
+    ("AM-01","主图 Main Image",      "2000x2000px","Real photo required"),
+    ("AS-02","核心卖点图",            "1600x2000px","AI allowed"),
+    ("AS-03","功能拆解图",            "1600x2000px","AI allowed"),
+    ("AS-04","尺寸参数图",            "1600x2000px","AI allowed"),
+    ("AS-05","场景使用图",            "1600x2000px","AI allowed"),
+    ("AS-06","细节特写图 (2x2)",      "1600x2000px","AI allowed"),
+    ("AS-07","竞品对比图",            "1600x2000px","AI allowed"),
+    ("AS-08","安装/使用步骤图",       "1600x2000px","AI allowed"),
+    ("AS-09","包装全家福",            "1600x2000px","AI allowed"),
     ("AV-01","主图视频脚本",          "1920x1080px","Video script"),
 ]
 
@@ -233,7 +233,7 @@ def build_workbook(args):
 
     checklist = [
         ("LISTING", [
-            ("Title", "≤150字符，主关键词在前80字符，无违禁词，自然可读"),
+            ("Title", "≤200字符，主关键词在前80字符，无违禁词，自然可读"),
             ("Title", "2025年新规：无全大写、无特殊符号、无促销词(Best/Free/Sale)"),
             ("Bullets", "5条，每条150-200字符，全大写标签开头，利益优先"),
             ("Bullets", "前400字符合计覆盖最重要信息（手机端截断点）"),

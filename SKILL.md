@@ -456,14 +456,14 @@ Execution flow:
 ## STEP 1 — Generate Listing copy
 
 **Title rules:**
-- `[Brand] [Core Keyword] [Key Attribute] – [Differentiator], [Context]`
-- Hard limit: 150 characters. Primary keyword in first 80 chars.
+- `[Brand] [Core Keyword] [Key Attribute] [Core Keyword] [Key Attribute] [Core Keyword] [Key Attribute] – [Differentiator], [Context]`
+- Hard limit: 200 characters. Primary keyword in first 120 chars.
 - Capitalise Every Main Word (skip: and/for/the/with/in/of/a)
 - No ALL-CAPS words, no special chars (!$?_{}^), no promo words (Best/Free/Sale)
 
 **5 Bullets — formula per bullet:**
 `【ALL-CAPS LABEL】Benefit statement. Feature/spec support. Context or proof.`
-- 150–200 chars each. COSMO dimension per bullet:
+- 200–250 chars each. COSMO dimension per bullet:
   - B1: capableOf + causes (function + problem solved)
   - B2: hasProperty + distinguishedFrom (material/spec + vs competitors)
   - B3: suitableFor + usedInContext (who + where)
@@ -942,9 +942,9 @@ associatedWith / instanceOf / preconditionOf / enabledBy
 
 ## Quality gates (check before finishing)
 
-- [ ] Title ≤150 chars, primary keyword in first 80
+- [ ] Title ≤200 chars, primary keyword in first 120
 - [ ] Listing copy checks apply only when listing copy is generated
-- [ ] Each bullet 150-200 chars with ALL-CAPS label when bullets are generated
+- [ ] Each bullet 200-250 chars with ALL-CAPS label when bullets are generated
 - [ ] Description ≥1500 chars, 5 paragraphs when description is generated
 - [ ] Backend ≤250 bytes, space-separated, no repeats when backend terms are generated
 - [ ] ≥8 COSMO dimensions covered when listing copy is generated
